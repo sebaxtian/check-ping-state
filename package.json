@@ -1,0 +1,34 @@
+{
+  "name": "check-ping-state",
+  "version": "1.0.0",
+  "description": "Permite conocer el estado de respuesta de una solicitud PING.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebaxtian/check-ping-state.git"
+  },
+  "keywords": [
+    "PING",
+    "State",
+    "Request",
+    "Response",
+    "TCP",
+    "IP",
+    "DNS",
+    "Network"
+  ],
+  "author": "Sebastian Rios Sabogal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebaxtian/check-ping-state/issues"
+  },
+  "homepage": "https://github.com/sebaxtian/check-ping-state#readme",
+  "dependencies": {
+    "moment": "^2.18.1",
+    "nodemailer": "^4.0.1",
+    "ping": "^0.2.2"
+  }
+}
