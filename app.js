@@ -18,7 +18,7 @@ let targetServers = ['164.132.176.183', '164.132.176.179'];
 
 // Funcion que consulta el estado de una solicitud de PING a un servidor
 function checkState(server) {
-    ping.promise.probe(server).then(response => {
+    ping.promise.probe(server, {timeout: 10}).then(response => {
         //console.log('response: ' + Object.keys(response));
         // Configura mensaje para Log
         let mensaje = '----------------------------------------------------\n';
